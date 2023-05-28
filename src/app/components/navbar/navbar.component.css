@@ -1,21 +1,15 @@
 .navbar {
     background-color: #e4f9f5;
-    color: #e4f9f5;
-    color: #959e9d;
 }
 
 .dark {
     background-color: #959e9d;
-}
-
-.home {
-    background-color: #e4f9f5;
+    ;
 }
 
 .active {
     color: #6e7079 !important;
    background-color: #d6d8df;
-   border-radius: 5px;
- 
+   border-radius: 5px; 
 }
 

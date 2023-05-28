@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Plant Store App",
+      "description": "Spring Boot Application",
+      "link": "https://my-plant-store.herokuapp.com"
+    },
+    {
+      "id": 2,
+      "name": "Library Management System",
+      "description": "JavaFX Application",
+      "link": "https://github.com/luciaonica/LibraryProject"
+    },
+    {
+      "id": 3,
+      "name": "Hangman",
+      "description": "Java Application",
+      "link": "https://github.com/luciaonica/Pyramid-Academy/tree/main/Hangman"
+    }
+  ]
+}

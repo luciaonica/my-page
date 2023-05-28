@@ -1,0 +1,8 @@
+<header>
+    <h1>My Projects</h1>
+    <app-button 
+        color="{{ showAddProject ? '#bf4d4d' : '#8bbecc' }}" 
+        text="{{ showAddProject ? 'Close' : 'Add' }}"
+        (btnClick)="toggleAddProject()"
+    ></app-button>
+</header>

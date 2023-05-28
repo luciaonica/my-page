@@ -1,0 +1,7 @@
+<div>
+    <app-project-item 
+        *ngFor="let project of projects"
+        [project]="project"
+        (onDeleteProject)="deleteProject(project)"
+    ></app-project-item>
+</div>

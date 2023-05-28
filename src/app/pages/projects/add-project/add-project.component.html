@@ -1,0 +1,25 @@
+<form *ngIf="showAddProject" (ngSubmit)="onSubmit()">
+    <div class="form-control" style="border: none;">
+        <label for="name">Project</label>
+        <input type="text" name="name" id="name"
+            [(ngModel)]="name"
+            placeholder="Project Name" />
+    </div>
+    <div class="form-control" style="border: none;">
+        <label for="description">Description</label>
+        <input type="text" name="description" id="description"
+        [(ngModel)]="description"
+        placeholder="Description" />
+    </div>
+    <div class="form-control" style="border: none;">
+        <label for="link">Link</label>
+        <input type="text" name="link" id="link"
+        [(ngModel)]="link"
+        placeholder="Link" />
+    </div>
+    <input type="submit" value="Save Project" class="btn btn-block" (click)="reloadCurrentPage()" />
+</form>
+
+<div *ngIf="!showAddProject">
+    <img src="assets/img/project-manager-icon-1.png" width="70%" style="margin-left: 35px; margin-top: 20px;" alt="">
+</div>

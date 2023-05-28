@@ -1,0 +1,12 @@
+<div class="project">
+    <h3>
+        <a *ngIf="project.link" href="{{project.link}}" 
+            target="_blank">{{project.name}} </a>
+        <span *ngIf="!project.link">{{project.name}}</span>
+        <fa-icon 
+            (click)="onDelete(project)"
+            [ngStyle]="{color: '#bf4d4d'}" [icon]="faTimes"></fa-icon>
+    </h3>
+    <p>{{project.description}}</p>
+    
+</div>
